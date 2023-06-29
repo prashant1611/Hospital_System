@@ -6,6 +6,13 @@ public class User {
 	private String fullName;
 	private String email;
 	private String password;
+	
+	
+
+	public User() {
+		super();
+		
+	}
 
 	public User(String fullName, String email, String password) {
 		super();

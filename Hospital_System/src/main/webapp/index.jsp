@@ -16,9 +16,6 @@
 </head>
 <body>
 	<%@include file="component/navbar.jsp"%>
-	<% Connection conn = DBConnect.getConn();
-	out.println(conn);
-	%>
 	<div id="carouselExampleIndicators" class="carousel slide"
 		data-ride="carousel">
 		<ol class="carousel-indicators">
